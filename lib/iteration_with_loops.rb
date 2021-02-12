@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while counter < src.count do
     element_string = 0
     while element_string < src[counter].length do
-      phrase << counter.to_a?(String)
+      phrase << counter.is_a?(String)
       element_string += 1
     end
     counter += 1
