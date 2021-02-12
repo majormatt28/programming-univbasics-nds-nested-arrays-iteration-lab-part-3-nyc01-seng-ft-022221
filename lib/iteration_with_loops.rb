@@ -5,7 +5,7 @@ def join_nested_strings(src)
     element_string = 0
     while element_string < src[counter].length do
     if src[counter][element_string].is_a?String == true
-      phrase << src
+      phrase << src[counter][element_string]
       element_string += 1
     end
   end
