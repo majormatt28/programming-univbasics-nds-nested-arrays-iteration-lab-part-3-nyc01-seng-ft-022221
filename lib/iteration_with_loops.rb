@@ -11,4 +11,5 @@ def join_nested_strings(src)
     end
     counter += 1
   end
+  p phrase
 end
