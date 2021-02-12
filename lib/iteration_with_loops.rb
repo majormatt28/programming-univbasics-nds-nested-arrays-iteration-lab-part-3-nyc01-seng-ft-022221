@@ -12,7 +12,7 @@ def join_nested_strings(src)
     end
     counter += 1
   end
-  p src.join(" ")
+  p phrase.join(" ")
 end
 
 
